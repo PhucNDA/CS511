@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A06F82A-8D60-4051-8B80-C51026AAA74C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BaiTH02</RootNamespace>
+    <AssemblyName>BaiTH02</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cart.Designer.cs">
+      <DependentUpon>cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cartitem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cartitem.Designer.cs">
+      <DependentUpon>cartitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties.Designer.cs">
+      <DependentUpon>Properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cartitem.resx">
+      <DependentUpon>cartitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties.resx">
+      <DependentUpon>Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piano_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piano_tiles_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASIO PX-870.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASIO PX-S3100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESSEX UP-123 WN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KAWAI BL51 Wn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KAWAI K-400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kimball Art Case.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kohler &amp; Campbell J310B.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOHLER CAMPBELL KIG-48D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KORG C1 Air Black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MASON MODEL 50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEISTER ME28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLAND F701 WH.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLAND KF-10 MB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLAND LX-705 LO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLAND LX-706.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLAND RD-88.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHIGERU KAWAI SK-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHIGERU KAWAI SK-EX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA C7X.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA CLP-795GP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA ELS-02C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA GB1K.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA P-125.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA YDP-165 WA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APOLLO RU200.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bösendorfer 120 CL.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boston UP-132E PE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOWMAN CX230 SR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA U1J PE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YAMAHA C1 PE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piano_img1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkout.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

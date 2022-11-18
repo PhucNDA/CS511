@@ -1,0 +1,15 @@
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.csproj.AssemblyReference.cache
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.Form1.resources
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.Properties.Resources.resources
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.csproj.GenerateResource.cache
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.csproj.CoreCompileInputs.cache
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\bin\Debug\BaiTH02.exe.config
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\bin\Debug\BaiTH02.exe
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\bin\Debug\BaiTH02.pdb
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.exe
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.pdb
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.Property.resources
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.Order.resources
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.Search.resources
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.cart.resources
+D:\SourceCode\SourceMVS\WFApplication\BaiTH02\obj\Debug\BaiTH02.cartitem.resources
